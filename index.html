@@ -1,0 +1,57 @@
+1. Repository: Kho chứa
+     - Local Repository : Kho chứa source code nằm ở local( ở Máy các thành viên)
+     - Remote Repository: Kho chứa source code nẳm ở server (ở trên "giời")
+2. Commit: hành động mà những "image" chụp lại thư mục source code của anh em tại thời điểm đấy
+3. Branch : Nhánh
+    - Tập hợp các commit thì gọi là nhánh
+    - Nhánh default (mặc định) người ta gọi là master
+
+4. Các trạng thái của FILE trong git
+    - Untrack: Chưa được kiểm soát bởi git (Màu đỏ)
+    - Modified: File sau khi đã được sửa (màu đỏ)
+    - Staged: File sau khi được xác nhận là đã chỉnh sửa (Màu xanh lá cây)
+    - Unmodified: Trạng thái của file sau khi commit. (Không hiển thị khi chạy lệnh git status)
+
+cd
+ls -l
+ls
+mkdir : make directory
+
+git init : Khởi tạo git
+git config --global user.name "Quyet Tran"
+git config --global user.email "zangquyet@gmail.com"
+
+Để kiểm tra xem là đã cấu hình name và email chưa
+dùng lệnh
+git config --list
+
+Để thoát màn hình soạn thảo dùng lệnh :q
+
+Để kiểm tra trạng thái của file trong dự án:
+Dùng lệnh : git status
+
+git commit -m "Mô tả cho lần 'chụp ảnh' đấy"
+
+Để chuyển trạng thái màu đỏ (2 trạng thái ở trên) thành màu xanh Staged là trạng thái sẵn sàng để commit ("Chụp ảnh") dùng lệnh:
+git add <tên file>
+git add -p : Xem cụ thể đã sửa file gì
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
